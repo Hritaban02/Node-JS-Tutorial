@@ -17,6 +17,17 @@
 // npm init -y (everything default)
 
 // lodash is a utility library
+// nodemon watches our files and restarts our app for us
+// We will install it as a dev dependency
+// npm i <packageName> -D or - -save-dev
+// Dev Dependecies are used while creating the app but usually not in production
+
+// npm run dev (look in package.json)
+
+
+// To uninstall a package 
+// npm uninstall <packageName>
+
 const _ = require('lodash')
 
 const items = [1, [2, [3, [4]]]]
